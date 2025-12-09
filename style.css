@@ -1,0 +1,253 @@
+html {
+    background-image: linear-gradient(#FC5E55, #FA4083);
+    min-height: 100%;
+    /* background-size: cover; */
+}
+
+body {
+    background-image: url(images/image-lion-background.png);
+    background-position: top center; 
+    background-repeat: no-repeat;
+    /* background-color: #FC5E55; */
+    font-family: "Playfair", serif;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    color: white;
+    font-size: 1.125rem;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    /* font-family: "Playfair", serif; */
+}
+
+.container {
+    width: 1024px;
+    /* background-color: rgb(18, 60, 12); */
+    min-height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    /* background-color: rgb(41, 96, 36); */
+    /* min-height: 100px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid lightgrey;
+}
+
+main {
+    /* background-color: rgb(49, 139, 41); */
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+}
+
+.main2 {
+    min-height: 300px;
+    padding-top: 50px;
+}
+
+.cards {
+    /* background-color: rgb(47, 198, 33); */
+    /* min-height: 300px; */
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.card1 {
+    /* background-color: rgb(227, 58, 137); */
+    background-image: url(images/image-background-card1-b.jpg);
+    background-size: cover;
+    background-position: bottom;
+    min-height: 250px;
+    width: 30%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.313);
+}
+
+.card2 {
+    /* background-color: rgb(238, 116, 173); */
+    background-image: url(images/image-background-card2-b.jpg);
+    background-size: cover;
+    background-position: bottom;
+    min-height: 250px;
+    width: 30%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.313);
+}
+
+.card3 {
+    /* background-color: rgb(150, 15, 78); */
+    background-image: url(images/image-background-card3-b.jpg);
+    background-size: cover;
+    background-position: bottom;
+    min-height: 250px;
+    width: 30%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.313);
+}
+
+.card1, .card2, .card3 {
+    padding: 30px 30px 20px 30px;
+    box-sizing: border-box;
+}
+
+.herobox1 {
+    /* width: 50%; */
+    /* background-color: cornflowerblue; */
+    flex: 2;
+    padding-right: 100px;
+}
+
+.herobox2 {
+    /* width: 50%; */
+    /* background-colo  r: white; */
+    flex: 1;
+}
+
+h1 {
+    /* font-size: 80px; */
+    font-size: 3.25rem;
+    margin-bottom: 1rem;
+    font-family: "Playfair", serif;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.313);
+}
+
+h2 {
+    font-size: 2rem;
+    font-family: "Playfair", serif;
+    margin-top: 20px;
+}
+
+p {
+    line-height: 1.75rem;
+    margin-bottom: 0.5rem;
+}
+
+.cards p {
+    font-size: 0.85rem;
+    line-height: 1.2rem;
+    /* margin: 10px 30px 20px 30px; margin top right bottom left  */
+    margin-top: 10px;
+}
+
+.cards i {
+    font-size: 100px;
+    padding-top: 30px;
+}
+
+.cards a {
+    color: white;
+    text-decoration: none;
+}
+
+.mybutton {
+    background-color: white;
+    color: #FA4083;
+    font-family: "Playfair", serif;
+    padding: 11px 25px;
+    border-radius: 2px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.313);
+    /* display: inline-block; */
+    /* margin-top: 20px; */
+}
+
+.mybutton:hover {
+    background-color: aquamarine;
+    transition-duration: 2s;
+}
+
+a.mybutton {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+nav a.navbutton {
+    margin-left: 30px;
+}
+
+.navbutton {
+    border: 1px solid white;
+    padding: 11px 25px;
+    display: inline-block;
+    font-family: "Playfair", serif;
+    position: relative;
+}
+
+.testimonials {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.tbox {
+    width: 47%;
+    padding: 50px;
+    border: 1px solid white;
+    box-sizing: border-box;
+    margin-top: 50px;
+}
+
+/* .tbox :last-child {
+    font-size: .8rem;
+} */
+
+.tbox p:last-of-type {
+    font-size: 0.8rem;
+    padding-left: 30px;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.navbutton:hover .dropdown {
+    display: block;
+    /* background-color: white; */
+}
+
+.dropdown .navbutton {
+    width: 120px;
+    background-color: white;
+}
+
+.dropdown .navbutton a{
+    color: #FA4083;
+}
+
+.inputwrapper {
+    margin-bottom: 20px;
+}
+
+input[type=text] , input[type=email] , textarea {
+    padding: 12px 20px;
+    width: 100%;
+    font-family: "Playfair", serif;
+    font-size: 0.85rem;
+    box-sizing: border-box;
+}
+
+.newline {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.margin-right-a {
+    margin-right: 20px;
+}
+
+input[type=radio] {
+    margin-right: 10px;
+}
+
+form {
+    margin: 40px 0px;
+} 
