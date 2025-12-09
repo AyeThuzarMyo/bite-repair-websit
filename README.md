@@ -2,7 +2,7 @@
 
 # Roar Cycle - Mobile Bike Repair Service Website
 
-## ✨ Live Demo
+## Live Demo
 
 **View the project live, deployed via GitHub Pages:**
 👉 **[Click to View Live Site](https://ayethuzarmyo.github.io/bite-repair-websit)** 👈
